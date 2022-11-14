@@ -1,0 +1,60 @@
+/*Body*/
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+/*
+=====Layout=====
+*/
+
+/*Heading*/
+p, h1{
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*Form*/
+fieldset{
+    border: none;
+    border-bottom: 1px solid white;
+    padding-top: 50px;
+    
+}
+
+input,
+textarea,
+select {
+  /*margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;*/
+  width: 100%;
+}
+
+label{
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+form{
+    padding: 0 20% 0 20%;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: unset;
+}
+
+button{
+    font-weight: bolder;
+    font-size: large;
+    margin: 50px 50% 20px 50%;
+    padding: 5px 10px 5px 10px;
+    
+}
+
+button:hover{
+    background-color: lightblue;
+}
